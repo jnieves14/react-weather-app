@@ -45,7 +45,8 @@ function WeatherSearch(props) {
   let form = (
     <form onSubmit={handleSubmit}>
       <div className="row">
-        <div className="col-9">
+        <div className="col-2"></div>
+        <div className="col-7">
           <input
             type="search"
             placeholder="Enter a city.."

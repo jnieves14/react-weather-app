@@ -20,6 +20,7 @@ function FormattedDate(props) {
   if (minutes < 10) {
     minutes = `0${minutes}`;
   }
+
   return (
     <div>
       Last Updated: {""} {day} {hours}:{minutes}
