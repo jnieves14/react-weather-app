@@ -6,18 +6,20 @@ import "./css/App.css";
 function App() {
   return (
     <div className="App">
-      Weather App
-      <WeatherSearch />
-      <footer>
-        This project was coded by Jannah Nieves and is{" "}
-        <a
-          href="https://github.com/jnieves14/react-weather-app"
-          target="_blank"
-          rel="noreferrer"
-        >
-          open souced on GitHub
-        </a>
-      </footer>
+      <div className="container">
+        {/* Add default city and its API data when no search has been made */}
+        <WeatherSearch defaultCity="San Diego" />
+        <footer>
+          This project was coded by Jannah Nieves and is{" "}
+          <a
+            href="https://github.com/jnieves14/react-weather-app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            open souced on GitHub
+          </a>
+        </footer>
+      </div>
     </div>
   );
 }
