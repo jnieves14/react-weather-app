@@ -1,8 +1,13 @@
 body {
   text-align: center;
+  margin-top: 100px;
 }
 
 .App {
   font-family: sans-serif;
   text-align: center;
+}
+
+footer {
+  margin-top: 50px;
 }

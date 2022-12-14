@@ -44,15 +44,21 @@ function WeatherSearch(props) {
 
   let form = (
     <form onSubmit={handleSubmit}>
-      <input
-        type="search"
-        placeholder="Enter a city.."
-        onChange={handleCityChange}
-        className="form-control"
-      />
-      <button type="Submit" className="btn btn-primary">
-        Search
-      </button>
+      <div className="row">
+        <div className="col-9">
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            onChange={handleCityChange}
+            className="form-control"
+          />
+        </div>
+        <div className="col-3">
+          <button type="Submit" className="btn btn-primary">
+            Search
+          </button>
+        </div>
+      </div>
     </form>
   );
 
